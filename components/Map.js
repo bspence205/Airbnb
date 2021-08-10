@@ -47,7 +47,7 @@ function Map({ searchResults }) {
               className="cursor-pointer text-2xl animate-bounce"
               aria-label="push-pin"
             >
-              A
+              🎈
             </p>
           </Marker>
 

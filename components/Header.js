@@ -41,7 +41,7 @@ function Header({ placeholder }) {
 
   const search = () => {
     router.push({
-      pathname: '/search',
+      pathname: "/search",
       query: {
         location: searchInput,
         startDate: startDate.toISOString(),
@@ -96,7 +96,7 @@ function Header({ placeholder }) {
         <p className="hidden md:inline cursor-pointer">Become a Host</p>
         <GlobeAltIcon
           className="h-6
-        cursor-pointer"
+        cursor-pointer animate-spin"
         />
 
         <div
