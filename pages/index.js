@@ -59,7 +59,6 @@ export default function Home({ exploreData, cardsData }) {
         </section>
       </main>
 
-
       <Footer />
     </div>
   );
